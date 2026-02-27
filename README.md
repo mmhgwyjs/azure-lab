@@ -14,7 +14,8 @@ This section outlines the core infrastructure and initial configuration for the 
 
 ### 1. Azure Subscription 
 
-- Sign up for a free or trial [Microsoft Azure account](https://azure.microsoft.com/free/).
+- Sign up for a free or trial [Microsoft Azure account](https://azure.microsoft.com/free/)
+  
   <img width="1433" height="893" alt="image" src="https://github.com/user-attachments/assets/b59a8625-b232-49b0-8fd4-3f4401a11f75" />
 
   <img width="1704" height="898" alt="image" src="https://github.com/user-attachments/assets/8ce8dfd0-611f-4dc5-b646-3f3ea2d5e761" />
