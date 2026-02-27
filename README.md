@@ -12,13 +12,16 @@ To build a controlled Microsoft Azure environment that allows hands-on explorati
 
 This section outlines the core infrastructure and initial configuration for the Azure Lab.
 
-### 1. Azure Subscription and Resource Group
+### 1. Azure Subscription 
 
 - Sign up for a free or trial [Microsoft Azure account](https://azure.microsoft.com/free/).
   <img width="1433" height="893" alt="image" src="https://github.com/user-attachments/assets/b59a8625-b232-49b0-8fd4-3f4401a11f75" />
 
   <img width="1704" height="898" alt="image" src="https://github.com/user-attachments/assets/8ce8dfd0-611f-4dc5-b646-3f3ea2d5e761" />
 
+---
+
+### 2. Resource Group
 
 - Create a dedicated resource group to contain all lab resources:
   
@@ -34,14 +37,35 @@ This section outlines the core infrastructure and initial configuration for the 
 
   <img width="1067" height="1024" alt="image" src="https://github.com/user-attachments/assets/d58e9fd5-85f1-405b-a0ee-bfc03c8645d3" />
 
+---
 
+### 3. Log Analytics Workspace
 
+- Create a dedicated log analytics workspace:
 
-- Organize resources for clarity and cost control.
+  Resource Group Name: LA-AzureLab
+
+  Location: Your preferred Azure region
+
+  <img width="868" height="770" alt="image" src="https://github.com/user-attachments/assets/cb79e9f4-2113-4eed-a066-07078e9b50a2" />
 
 ---
 
-### 2. Virtual Machine Deployment
+### 4. Microsoft Sentinel
+
+- Create Microsoft Sentinel and select the log analytics created earlier
+
+  <img width="1920" height="970" alt="image" src="https://github.com/user-attachments/assets/fe5a4b58-418d-49ba-a1a8-1ad771585038" />
+
+  <img width="2283" height="313" alt="image" src="https://github.com/user-attachments/assets/623e0caa-2561-4909-a23c-0c5bd1dc2ee1" />
+
+---
+
+### 5. Microsoft Sentinel
+
+- Create Microsoft Sentinel and select the log analytics created earlier
+
+---
 
 - Deploy Windows 10/11 VMs for endpoint testing.  
 - Deploy Linux VMs if needed for cross-platform scenarios.  
