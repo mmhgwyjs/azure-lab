@@ -14,10 +14,27 @@ This section outlines the core infrastructure and initial configuration for the 
 
 ### 1. Azure Subscription and Resource Group
 
-- Sign up for a free or trial [Microsoft Azure account](https://azure.microsoft.com/free/).  
-- Create a dedicated resource group to contain all lab resources:  
-Resource Group Name: RG-AzureLab
-Location: Your preferred Azure region
+- Sign up for a free or trial [Microsoft Azure account](https://azure.microsoft.com/free/).
+  <img width="1433" height="893" alt="image" src="https://github.com/user-attachments/assets/b59a8625-b232-49b0-8fd4-3f4401a11f75" />
+
+  <img width="1704" height="898" alt="image" src="https://github.com/user-attachments/assets/8ce8dfd0-611f-4dc5-b646-3f3ea2d5e761" />
+
+
+- Create a dedicated resource group to contain all lab resources:
+  
+  Resource Group Name: RG-AzureLab
+
+  Location: Your preferred Azure region
+
+  <img width="2549" height="1081" alt="image" src="https://github.com/user-attachments/assets/3ac60e0b-9ea0-46a4-8155-b13a87cbe315" />
+  
+  <img width="984" height="492" alt="image" src="https://github.com/user-attachments/assets/6c243fbe-4288-4580-a830-1a36a7f89064" />
+
+- Create a budget alert (Cost Management > Monitoring > Budgets)
+
+  <img width="1067" height="1024" alt="image" src="https://github.com/user-attachments/assets/d58e9fd5-85f1-405b-a0ee-bfc03c8645d3" />
+
+
 
 
 - Organize resources for clarity and cost control.
