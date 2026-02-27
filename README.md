@@ -19,8 +19,6 @@ This section outlines the core infrastructure and initial configuration for the 
 
   <img width="1704" height="898" alt="image" src="https://github.com/user-attachments/assets/8ce8dfd0-611f-4dc5-b646-3f3ea2d5e761" />
 
----
-
 ### 2. Resource Group
 
 - Create a dedicated resource group to contain all lab resources:
@@ -37,8 +35,6 @@ This section outlines the core infrastructure and initial configuration for the 
 
   <img width="1067" height="1024" alt="image" src="https://github.com/user-attachments/assets/d58e9fd5-85f1-405b-a0ee-bfc03c8645d3" />
 
----
-
 ### 3. Log Analytics Workspace
 
 - Create a dedicated log analytics workspace:
@@ -49,8 +45,6 @@ This section outlines the core infrastructure and initial configuration for the 
 
   <img width="868" height="770" alt="image" src="https://github.com/user-attachments/assets/cb79e9f4-2113-4eed-a066-07078e9b50a2" />
 
----
-
 ### 4. Microsoft Sentinel
 
 - Create Microsoft Sentinel and select the log analytics created earlier
@@ -59,11 +53,19 @@ This section outlines the core infrastructure and initial configuration for the 
 
   <img width="2283" height="313" alt="image" src="https://github.com/user-attachments/assets/623e0caa-2561-4909-a23c-0c5bd1dc2ee1" />
 
----
+### 5. Data Connectors
 
-### 5. Microsoft Sentinel
+- Install and enable data connectors (Microsoft Sentinel > Configuration > Data Connectors)
 
-- Create Microsoft Sentinel and select the log analytics created earlier
+  <img width="1520" height="1025" alt="image" src="https://github.com/user-attachments/assets/34fbb01d-66ab-4cae-89d9-731b06501372" />
+
+  <img width="2066" height="672" alt="image" src="https://github.com/user-attachments/assets/fd4a6f1a-edd0-4053-b97b-62c0a27e7d67" />
+
+### 5. Entra ID (Azure AD)
+
+- Configure Entra ID users and roles
+
+
 
 ---
 
