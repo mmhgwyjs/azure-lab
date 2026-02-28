@@ -64,9 +64,13 @@ This section outlines the core infrastructure and initial configuration for the 
 
 ### 5. Entra ID (Azure AD)
 
-- Configure Entra ID users and roles
+- Configure Entra ID users and roles (Microsoft Entra ID > Users)
 
+  <img width="1093" height="490" alt="image" src="https://github.com/user-attachments/assets/5383adc2-3f36-4bb1-a8ce-e616afe367a1" />
 
+### 6. Entra ID (Azure AD)
+
+- Configure Entra ID users and roles (Microsoft Entra ID > Users)
 
 ---
 
