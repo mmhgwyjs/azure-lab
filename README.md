@@ -66,51 +66,12 @@ This section outlines the core infrastructure and initial configuration for the 
 
 - Configure Entra ID users and roles (Microsoft Entra ID > Users)
 
-  <img width="1093" height="490" alt="image" src="https://github.com/user-attachments/assets/5383adc2-3f36-4bb1-a8ce-e616afe367a1" />
+  <img width="1539" height="518" alt="image" src="https://github.com/user-attachments/assets/a1a00945-3d28-468e-a27c-16461ec3f963" />
 
-### 6. Entra ID (Azure AD)
+### 6. Virtual Machine
 
-- Configure Entra ID users and roles (Microsoft Entra ID > Users)
+- Deploy virtual machine 
 
----
-
-- Deploy Windows 10/11 VMs for endpoint testing.  
-- Deploy Linux VMs if needed for cross-platform scenarios.  
-- VM sizes can be B1s or other low-cost tiers to minimize expenses.  
-
-> These VMs serve as test environments for Defender onboarding, attack simulation, and SIEM data ingestion.
-
----
-
-### 3. Microsoft Defender Integration
-
-- Enable **Microsoft Defender for Endpoint** on Windows VMs.  
-- Enable **Microsoft Defender for Cloud** for the resource group.  
-- Review secure score recommendations and implement baseline policies.  
-
-> The Defender suite will be the primary source of alerts and security telemetry for the lab.
-
----
-
-### 4. Microsoft Sentinel Setup
-
-- Create a **Log Analytics Workspace** and link it to your resource group.  
-- Deploy **Microsoft Sentinel**.  
-- Connect data sources:
-  - Security Events (Windows/Linux VMs)
-  - Azure Activity Logs
-  - Entra ID logs (Azure AD)
-- Verify data ingestion and build a simple dashboard to visualize alerts.
-
----
-
-### 5. Baseline Network and Identity Configuration
-
-- Set up **Azure AD** (Entra ID) for identity management.  
-- Configure RBAC roles to simulate typical tenant permissions.  
-- Apply **basic conditional access policies** for MFA and sign-in controls.  
-- Set up NSGs and basic network segmentation.
-
-> These steps ensure that your lab mimics a realistic enterprise cloud environment.
+  <img width="2023" height="1011" alt="image" src="https://github.com/user-attachments/assets/d57aa64c-7e79-4a73-a5b7-c4189e5102d1" />
 
 ---
